@@ -10,6 +10,47 @@
   color: #27251F;
   box-sizing: border-box;
   font-family: sans-serif;
+  background-color: #1e3932;
+  max-width: 650px;
+  margin: auto;
+
+
 }
 
-/* your code */
+#nav{
+  display: flex;
+  font-size: xx-large;
+  padding: 10px 0px;
+  justify-content: flex-start;
+}
+
+.bucksCountsHeader{
+color: #f2f0eb;
+margin-left: 5%;
+}
+
+.labelText{
+display: flex;
+flex-direction: column;
+background-color:#C0C0C0	;
+border-radius: 3px;
+justify-content: flex-start;
+font-size: 20px;
+padding: 20px;
+margin-bottom: 5%;
+}
+
+.city-list{
+  border: solid 1px #d4e9e2;
+  border-radius: 5px;
+}
+.city-item{
+  display: flex;
+  background-color: #00754a;
+  padding:5px;
+  margin: 10px;
+  justify-content: flex-end;
+
+}
+
+
